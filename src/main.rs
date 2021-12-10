@@ -3,6 +3,7 @@ use clap::{App, Arg};
 
 
 fn main() {
+    println!("Grep-Lite");
     let args = App::new("grep-lite")
         .version("0.1")
         .about("searches for patterns")
